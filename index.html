@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Keren</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset dasar */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Gaya header */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Gaya navigasi */
+        nav {
+            background: #444;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background: #555;
+            border-radius: 4px;
+        }
+
+        /* Gaya konten utama */
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        .main-content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px; /* Tambahkan jarak bawah antar konten */
+        }
+
+        .main-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .button:hover {
+            background: #0056b3;
+        }
+
+        .about-section {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        /* Gaya footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Responsif */
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .container {
+                width: 95%;
+            }
+
+            /* Perbaiki margin footer agar tidak terlalu rapat */
+            footer {
+                position: static;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bjir Anjay Slebew</h1>
+    </header>
+    <nav>
+    </nav>
+    <div class="container">
+        <div class="main-content">
+            <h2>R3NTAL SQUAD</h2>
+            <!-- Ganti URL gambar di bawah dengan jalur relatif ke gambar yang disimpan di folder proyek Anda -->
+            <img src="fabz.jpg" alt="Deskripsi Gambar">
+            <p>Mingguan Kejadian Terios Rental.</p>
+        </div>
+        <div class="main-content">
+            <!-- Ganti URL gambar di bawah dengan jalur relatif ke gambar yang disimpan di folder proyek Anda -->
+            <img src="anjay.jpg" alt="Deskripsi Gambar">
+        </div>
+        <div class="main-content">
+            <!-- Ganti URL gambar di bawah dengan jalur relatif ke gambar yang disimpan di folder proyek Anda -->
+            <img src="bjir.jpg" alt="Deskripsi Gambar">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Website Keren. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>

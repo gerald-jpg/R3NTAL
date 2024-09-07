@@ -1,0 +1,156 @@
+/* Reset dasar */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000dff; /* Warna latar belakang gelap */
+    color: #e0e0e0; /* Teks berwarna terang */
+}
+
+/* Gaya header */
+header {
+    background: linear-gradient(135deg, #003366, #3366cc); /* Gradien biru gelap ke biru cerah */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Gaya navigasi */
+nav {
+    background: #002240; /* Biru sangat gelap */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #e0e0e0; /* Teks navigasi terang */
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #004080; /* Biru gelap pada hover */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Gaya konten utama */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.main-content {
+    background: #1e1e1e; /* Latar belakang konten gelap */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+.main-content h2 {
+    font-size: 2.5em;
+    margin-top: 0;
+    border-bottom: 4px solid #3366cc; /* Garis bawah biru */
+    padding-bottom: 10px;
+    color: #3366cc; /* Judul biru cerah */
+}
+
+.main-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    color: #fff;
+    background: #003366; /* Biru gelap */
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: #004080; /* Biru gelap pada hover */
+    transform: scale(1.05);
+}
+
+/* Bagian Tentang Kami */
+.about-section {
+    background: #1e1e1e; /* Latar belakang gelap */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    margin-top: 0;
+    border-bottom: 4px solid #3366cc; /* Garis bawah biru */
+    padding-bottom: 10px;
+    color: #3366cc; /* Judul biru cerah */
+}
+
+/* Gaya footer */
+footer {
+    background: #002240; /* Biru sangat gelap */
+    color: #e0e0e0; /* Teks footer terang */
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
